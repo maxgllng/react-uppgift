@@ -1,0 +1,55 @@
+.help--wrapper {
+  margin-top: 2rem;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  width: 800px;
+  height: 800px;
+  background-color: #c1b4ad;
+  border-radius: 20px;
+}
+
+.help--wrapper h2 {
+  font-size: 40px;
+  color: white;
+  margin: 2rem;
+}
+
+.logo--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 205px;
+  height: 145px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.text--wrapper {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: white;
+  margin-left: 5%;
+  padding: 1rem;
+  gap: 1rem;
+  align-items: start;
+}
+
+.headspace--wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.calm--wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.betterhelp--wrapper {
+  display: flex;
+  justify-content: center;
+}

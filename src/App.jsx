@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Generator from './components/Generator'
+import Help from './components/Help'
 
 import './App.css'
 
@@ -10,7 +11,8 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Generator />
+      {/* <Generator /> */}
+      <Help />
     </div>
   )
 }
