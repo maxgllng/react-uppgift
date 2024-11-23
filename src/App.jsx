@@ -1,10 +1,11 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Generator from './components/Generator'
+
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [data, setData] = useState([]);
 
   return (
     <div>

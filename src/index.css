@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  font-family: "Raleway", serif;
+}
+
+body {
+  max-width: 1728px;
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  height: 100vh;
+}
