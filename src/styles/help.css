@@ -1,5 +1,6 @@
 .help--wrapper {
   margin-top: 2rem;
+  padding: 2rem;
   justify-self: center;
   display: flex;
   flex-direction: column;
@@ -14,15 +15,14 @@
 .help--wrapper h2 {
   font-size: 40px;
   color: white;
-  margin: 2rem;
+  margin: 1.5rem;
 }
 
 .logo--wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 205px;
+  min-width: 205px;
   height: 145px;
   background-color: white;
   border-radius: 20px;
