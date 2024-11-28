@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route index element={<Home />} />
           <Route path="Networks" element={<Networks />} />
         </Routes>
       </main>
