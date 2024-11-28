@@ -20,7 +20,7 @@ export default function Generator() {
             {affirmationsData ? (
                 <p className="affirmation">{affirmationsData.text}</p>
             ) : (
-                <h4>Click the button to generate an affirmation</h4>
+                <h4 className="start--text">Click the button to generate an affirmation</h4>
             )}
             <button className="generate--btn" onClick={getAffirmation}>Generate</button>
         </div>

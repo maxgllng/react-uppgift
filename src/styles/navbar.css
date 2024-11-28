@@ -27,6 +27,6 @@
   border-radius: 20px;
 }
 
-.help--btn:active {
-  display: none;
+.help--btn:hover {
+  background: #b65c5c;
 }
