@@ -4,13 +4,21 @@ import Smiley from '../images/smiley.png'
 import '../styles/generator.css';
 
 export default function Generator() {
-    const [affirmationsData, setAffirmationsData] = useState(null)
+    const [affirmationsData, setAffirmationsData] = useState(null);
 
     const getAffirmation = async () => {
-        const response = await fetch("http://localhost:8000/affirmations");
-        const data = await response.json();
-        const randomAffirmation = data[Math.floor(Math.random() * data.length)];
-        setAffirmationsData(randomAffirmation);
+        try {
+            const response = await fetch("http://localhost:8000/affirmations");
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            const data = await response.json();
+            const randomAffirmation = data[Math.floor(Math.random() * data.length)];
+            setAffirmationsData(randomAffirmation);
+        } catch (error) {
+            alert("Du måste starta json-server eller kontrollera anslutningen!");
+            console.error("Fetch error:", error);
+        }
     };
 
     return (
