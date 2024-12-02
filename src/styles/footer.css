@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8rem;
+  padding-top: 1rem;
+}
+
+.socials--wrapper {
+  display: flex;
+  margin: 1rem;
+  gap: 1rem;
+}
