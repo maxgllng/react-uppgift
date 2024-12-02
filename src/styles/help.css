@@ -9,6 +9,7 @@
   width: 800px;
   height: 800px;
   background-color: #c1b4ad;
+  box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
 }
 
@@ -23,7 +24,6 @@
   flex-direction: column;
   justify-content: center;
   min-width: 205px;
-  height: 145px;
   background-color: white;
   border-radius: 20px;
 }
@@ -39,17 +39,8 @@
   align-items: start;
 }
 
-.headspace--wrapper {
+.network--wrapper {
   display: flex;
   justify-content: center;
 }
 
-.calm--wrapper {
-  display: flex;
-  justify-content: center;
-}
-
-.betterhelp--wrapper {
-  display: flex;
-  justify-content: center;
-}
