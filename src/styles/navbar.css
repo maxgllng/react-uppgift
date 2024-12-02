@@ -26,7 +26,19 @@
   background: #d05757;
   border-radius: 20px;
 }
-
 .help--btn:hover {
   background: #b65c5c;
+}
+
+.help--btn.back-btn {
+  background-color: rgb(128, 209, 128);
+  padding: 0.5rem;
+  color: white;
+  width: fit-content;
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.help--btn.back-btn:hover {
+  background-color: green;
 }
