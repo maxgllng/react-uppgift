@@ -4,14 +4,14 @@ import { X, Facebook, Instagram } from 'grommet-icons';
 
 export default function Footer() {
     return (
-        <div className="footer">
+        <footer className="footer">
             <p>© PureThoughts. 2024</p>
             <div className="socials--wrapper">
                 <X />
                 <Facebook />
                 <Instagram />
             </div>
-        </div>
+        </footer>
     )
 
 }

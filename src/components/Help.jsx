@@ -10,14 +10,16 @@ export default function Help(props) {
     };
 
     return (
-        <div className="network--wrapper">
-            <div className="logo--wrapper">
-                <img src={props.img} alt={props.alt} onClick={handleClick} />
-            </div>
-            <div className="text--wrapper">
-                <h3 onClick={handleClick}>{props.title}</h3>
-                <p onClick={handleClick}>{props.info}</p>
-            </div>
-        </div>)
+        <>
+            <article className="network--wrapper">
+                <div className="logo--wrapper">
+                    <img src={props.img} alt={props.alt} onClick={handleClick} />
+                </div>
+                <div className="text--wrapper">
+                    <h3 onClick={handleClick}>{props.title}</h3>
+                    <p onClick={handleClick}>{props.info}</p>
+                </div>
+            </article>
+        </>)
 
 }

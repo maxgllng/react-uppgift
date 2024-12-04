@@ -22,16 +22,17 @@ export default function Generator() {
     };
 
     return (
-
-        <div className="generator">
-            <img src={Smiley} alt="happyface" className="smiley" />
-            {affirmationsData ? (
-                <p className="affirmation">{affirmationsData.text}</p>
-            ) : (
-                <h4 className="start--text">Click the button to generate an affirmation</h4>
-            )}
-            <button className="generate--btn" onClick={getAffirmation}>Generate</button>
-        </div>
+        <main>
+            <div className="generator">
+                <img src={Smiley} alt="happyface" className="smiley" />
+                {affirmationsData ? (
+                    <p className="affirmation">{affirmationsData.text}</p>
+                ) : (
+                    <h4 className="start--text">Click the button to generate an affirmation</h4>
+                )}
+                <button className="generate--btn" onClick={getAffirmation}>Generate</button>
+            </div>
+        </main>
 
     )
 }
